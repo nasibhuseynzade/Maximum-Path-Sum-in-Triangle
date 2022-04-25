@@ -59,10 +59,8 @@ our_matrice=[
 
 
 '''our_matrice = [[1],
-            [8,4],
-            [2,6,9],
-            [8,5,9,3]]'''
+                [8,4],
+                [2,6,9],
+                [8,5,9,3]]'''
 
 print(maximumSum(our_matrice))
-#print(maximumSum(our_matrice))
-#print(notprime_matrice(our_matrice))
