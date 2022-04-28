@@ -26,7 +26,15 @@ def  maximumSum(matrice): #maximum path function for all triangle matrices
                 
                 matrice[i][j]=0
 
-    for i in range(1,m,1):
+    for i in range(0,m,1): # if there are neighbor zeros, particular element of upper raw must be zero
+
+        for j in range(1,i,1):
+            
+            if (matrice[i][j-1]==0 and matrice[i][j]==0):
+
+                matrice[i-1][j-1]=0
+
+    for i in range(1,m,1): #loop for path
 
         for j in range(0,i+1,1):
 
