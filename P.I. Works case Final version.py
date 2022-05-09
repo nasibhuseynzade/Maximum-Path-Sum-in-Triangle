@@ -14,7 +14,6 @@ def isPrime(n): #Simple function in order to determine whether number is prime o
 
 def  maximumSum(matrice): #maximum path function for all triangle matrices
   
-    k=0 #optimal column index
     m=len(matrice)
 
     for i in range(0,m,1): # operation for eliminating prime numbers of matrice
