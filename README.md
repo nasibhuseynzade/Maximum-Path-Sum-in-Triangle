@@ -18,4 +18,4 @@ As we can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1>
 
 For this path, we are going to use maximumSum function in the max_path_sum.py code.
 
-Then, we will test the algorithm with massive following triangular matrice located in test1.py.
+Then, we will test the algorithm with following massive triangular matrice located in test1.py.
